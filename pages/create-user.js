@@ -8,7 +8,7 @@ const CreateUser = () => {
 			username: data.username
 		};
 
-		axios.post('http://localhost:5000/users/add', newUser).then((res) => console.log(res.data));
+		axios.post('https://murmuring-reef-67194.herokuapp.com/users/add', newUser).then((res) => console.log(res.data));
 	};
 	return (
 		<div>
