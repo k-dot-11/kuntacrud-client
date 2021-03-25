@@ -1,32 +1,10 @@
-import Link from 'next/link';
+import Layout from '../components/layout';
 
-export default function Home() {
-	return (
-		<div>
-			<nav>
-				<ul>
-					<li>
-						<Link href="/">
-							<a>Home</a>
-						</Link>
-					</li>
-					<li>
-						<Link href="/list">
-							<a>List of exericises</a>
-						</Link>
-					</li>
-					<li>
-						<Link href="/create-exercise">
-							<a>Create Exercise</a>
-						</Link>
-					</li>
-          <li>
-						<Link href="/create-user">
-							<a>Create User</a>
-						</Link>
-					</li>
-				</ul>
-			</nav>
-		</div>
-	);
-}
+const Home = () => (
+	<>
+		<h1 className="text-purple-500 leading-normal font-mono text-3xl">Next.js</h1>
+		<p className="text-gray-500 font-mono text-xl">with Tailwind CSS</p>
+	</>
+);
+
+export default Home;

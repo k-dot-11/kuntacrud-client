@@ -1,5 +1,9 @@
+import Layout from "../components/layout";
+
 const CreateExercise = () => {
-	return <div>CreateExercise</div>;
+	return (
+			<h1>Create exercise components</h1>
+	)
 };
 
 export default CreateExercise;
