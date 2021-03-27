@@ -9,7 +9,7 @@ const CreateUser = () => {
 		};
 
 		axios
-			.post('https://murmuring-reef-67194.herokuapp.com/users/add', newUser)
+			.post('https://morning-sierra-15958.herokuapp.com/users/add', newUser)
 			.then((res) => console.log(res.data));
 	};
 	return (
